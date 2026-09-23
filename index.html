@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="node_modules/lato-font/css/lato-font.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="shortcut icon" href="image/w3schools-logo.png" type="image/x-icon">
     <title>W3.CSS Template</title>
 </head>
+
 <body>
     <nav id="main_bar">
         <ul>
-        <div><li><a href="#">Home</a></li></div>
-        <div><li><a href="#">Plans</a></li></div>
-        <div><li><a href="#">About</a></li></div>
-        <div><li><a href="#">Contact</a></li></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Plans">Plans</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
     <header>
@@ -20,85 +26,158 @@
     </header>
     <main>
         <section id="Home">
-            <figure>
-                <img src="image/coffee.jpg" alt="Coffee_image">
+            <div id="pic">
+            <figure id="image">
+                <img src="image/coffee.jpg" alt="Coffee-image">
             </figure>
-            <div id="samp1"><samp>Lorem ipsum</samp></div>
-            <nav id="header_nav">
-                <!-- icons -->
+            <div id="pic_lorem"><span>Lorem ipsum</span></div>
+            </div>
+            <nav id="Home_nav">
+                    <div id="arrow_left"><button type="submit"><i class="fa-solid fa-circle-left"></i></button></div>
+                    <div id="square">
+                    <div id="square1"><button type="submit"></button></div>
+                    <div class="square2"><button type="submit"></button></div>
+                    <div class="square2"><button type="submit"></button></div>
+                    </div>
+                    <div id="arrow_right"><button type="submit"><i class="fa-solid fa-circle-right"></i></button></div>
             </nav>
-            <h2>What We Offer</h2>
-            <hr>
-            <!-- article? -->
+            <div id="title1"><span>What We Offer</span></div>
+            <article>
             <div id="Description1">
-                <h3>Design</h3>
+                <span>Design</span>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
             <div id="Description2">
-                <h3>Branding</h3>
+                <span>Branding</span>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
             <div id="Description3">
-                <h3>Consultation</h3>
+                <span>Consultation</span>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
             <div id="Description4">
-                <h3>Promises</h3>
+                <span>Promises</span>
                 <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             </div>
+        </article>
         </section>
-        <section id="Plans">
-            <div>
-            <h2>Pricing Plans</h2>
-            <p>Choose a Pricing plan that fits your needs.</p>
+        <div id="Plans"></div>
+        <section>
+                <div id="title2"><span>Pricing Plans</span>
+                <p>Choose a Pricing plan that fits your needs.</p></div>
+            <div id="pay_cards">
+            <div id="pay1">
+                <ul>
+                    <li class="model">Basic</li>
+                    <li class="li"><b>10GB</b> Storage</li>
+                    <li class="li"><b>10</b> Email</li>
+                    <li class="li"><b>10</b> Domains</li>
+                    <li class="li"><b>Endless</b> Support</li>
+                    <li class="price"><span>$ 10</span>
+                        <p>per month</p></li>
+                    <li class="SingUp"><button type="submit">Sing Up</button></li>
+                </ul>
             </div>
-            <table id="proposal1">
-                <tr><th>Basic</th></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-            </table>
-            <table id="proposal2">
-                <tr><th>Pro</th></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-            </table>
-            <table id="proposal3">
-                <tr><th>Premium</th></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-            </table>
+            <div id="pay2">
+                <ul>
+                    <li id="model1">Pro</li>
+                    <li class="li"><b>25GB</b> Storage</li>
+                    <li class="li"><b>25</b> Email</li>
+                    <li class="li"><b>25</b> Domains</li>
+                    <li class="li"><b>Endless</b> Support</li>
+                    <li class="price"><span>$ 25</span>
+                        <p>per month</p></li>
+                    <li class="SingUp"><button type="submit">Sing Up</button></li>
+                </ul>
+            </div>
+            <div id="pay3">
+                <ul>
+                    <li class="model">Premium</li>
+                    <li class="li"><b>50GB</b> Storage</li>
+                    <li class="li"><b>50</b> Email</li>
+                    <li class="li"><b>50</b> Domains</li>
+                    <li class="li"><b>Endless</b> Support</li>
+                    <li class="price"><span>$ 50</span>
+                        <p>per month</p></li>
+                    <li class="SingUp"><button type="submit">Sing Up</button></li>
+                </ul>
+            </div>
+        </div>
         </section>
-        <section id="About">
-            <h2>Who We Are</h2>
-            <hr>
-            <div id="card1">
-                <figure>
-                    <img src="" alt="">
+        <div id="About"></div>
+        <section>
+            <div id="title3"><span>Who We Are</span></div>
+            <div id="cards">
+            <div class="card">
+                <figure class="image_card">
+                    <img src="image/team1.jpg" alt="jane doe photo">
                 </figure>
+                <div>
+                    <span>Jane Doe</span>
+                    <div class="work"><p>CEO & Founder</p></div>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button type="submit">Contact</button>
+                </div>
             </div>
-            <div id="card2">
-                <figure>
-                    <img src="" alt="">
+            <div class="card">
+                <figure class="image_card">
+                    <img src="image/team2.jpg" alt="mike ross photo">
                 </figure>
+                <div>
+                    <span>Mike Ross</span>
+                    <div class="work"><p>Art Director</p></div>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button type="submit">Contact</button>
+                </div>
             </div>
-            <div id="card3">
-                <figure>
-                    <img src="" alt="">
+            <div class="card">
+                <figure class="image_card">
+                    <img src="image/team3.jpg" alt="john doe photo">
                 </figure>
+                <div>
+                    <span>John Doe</span>
+                    <div class="work"><p>Designer</p></div>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <button type="submit">Contact</button>
+                </div>
             </div>
+        </div>
+        </section>
+        <div id="Contact"></div>
+        <section>
+            <div id="title4"><span>Contact Us</span></div>
+            <form action="#">
+                <label class="labels" for="Name">Name</label>
+                <input class="inputs" type="text" id="Name" name="UserName" required>
+                <label class="labels" for="Email">Email</label>
+                <input class="inputs" type="email" id="Email" name="Email" required>
+                <label class="labels" for="Subject">Subject</label>
+                <input class="inputs" type="text" id="Subject" name="Subject" required>
+                <label class="labels" for="Message">Message</label>
+                <input class="inputs" type="text" id="Message" name="Message" required>
+                <div id="Send"><button type="submit">Send</button></div>
+            </form>
         </section>
     </main>
+    <footer>
+        <h4>Footer</h4>
+        <div id="link_footer"><a href="#"><i class="fa-solid fa-arrow-up"></i><span>To the top</span></a></div>
+        <div id="icon_footer">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div id="w3_link">
+            <span>Powered by</span>
+            <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+        </div>
+    </footer>
 </body>
+
 </html>

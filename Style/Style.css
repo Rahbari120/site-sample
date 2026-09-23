@@ -1,0 +1,471 @@
+* {
+    font-family: Lato;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main_bar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#main_bar ul {
+    display: flex;
+}
+
+#main_bar li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+}
+
+#main_bar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    display: block;
+    padding: 11px;
+}
+
+#main_bar a:hover {
+    background-color: rgb(204, 204, 204);
+}
+header{
+    width: 100%;
+    margin-top: 56px;
+    margin-bottom: 32px;
+}
+header h1{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 36px;
+}
+
+header p{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+main{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+#image img{
+    width: 100%;
+    display: block;
+    
+}
+
+#pic{
+position: relative;
+}
+
+#pic_lorem{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    top: 22px;
+    left: 16px;
+}
+
+#Home_nav{
+    display: flex;
+    background-color: rgb(97, 97, 97);
+    padding: 13px;
+}
+
+#Home_nav i{
+    color: rgb(255, 255, 255);
+}
+
+#arrow_left button{
+    font-size: 20px;
+    background-color: rgb(97, 97, 97);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 50%;
+}
+#arrow_right button{
+    font-size: 20px;
+    background-color: rgb(97, 97, 97);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 50%;
+}
+#square{
+    display: flex;
+    gap: 5px;
+    margin: auto;
+}
+
+#square1 button{
+    border: 1px solid rgba(204, 204, 204);
+    padding: 7px;
+}
+
+.square2 button{
+    background-color: rgba(97, 97, 97);
+    border: 1px solid rgba(204, 204, 204);
+    padding: 7px;
+}
+
+.square2 button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#arrow_left i:hover{
+    color: rgb(0, 150, 136);
+}
+
+#arrow_right i:hover{
+    color: rgb(0, 150, 136);
+}
+
+#title1{
+    text-align: center;
+    margin: 64px auto 64px auto;
+}
+
+#title1 span{
+    padding-bottom: 15px;
+    font-size: 24px;
+    border-bottom: 6px solid rgb(97, 97, 97);
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+article>div{
+    flex: 25%;
+}
+#Description1{
+    background-color: rgb(241, 241, 241);
+    padding: 30px 18px;
+}
+
+#Description1 span{
+    font-size: 25px;
+}
+
+#Description1 p{
+    padding-top: 20px;
+}
+
+#Description2{
+    background-color: rgb(158, 158, 158);
+    padding: 30px 18px;
+}
+
+#Description2 span{
+    font-size: 25px;
+}
+
+#Description2 p{
+    padding-top: 20px;
+}
+
+#Description3{
+    background-color: rgb(97, 97, 97);
+    color: rgb(255, 255, 255);
+    padding: 30px 18px;
+}
+
+#Description3 span{
+    font-size: 25px;
+}
+
+#Description3 p{
+    padding-top: 18px;
+}
+
+#Description4{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 30px 18px;
+}
+
+#Description4 span{
+    font-size: 25px;
+}
+
+#Description4 p{
+    padding-top: 20px;
+}
+
+#title2{
+    text-align: center;
+    margin: 70px;
+}
+
+#title2 span{
+    font-size: 24px;
+}
+
+#title2 p{
+    padding-top: 18px;
+}
+
+#pay_cards{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+
+#pay_cards>div{
+    flex: 1;
+}
+
+#pay1 ul{
+    border: 1px solid rgb(210, 210, 210);
+    list-style: none;
+    text-align: center;
+}
+
+.li{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    padding: 16px;
+}
+
+.model{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 35px;
+    font-size: 25px;
+}
+
+.price{
+    border-bottom: 1px solid rgb(210, 210, 210);
+    padding-top: 30px;
+}
+
+.price span{
+    font-size: 35px;
+}
+
+.price p{
+    padding: 18px 0 15px 0;
+    color: rgb(124, 124, 124);
+}
+
+.SingUp{
+    padding: 23px;
+    background-color: rgb(241, 241, 241);
+}
+
+.SingUp button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 175, 80);
+    border: 1px solid rgb(76, 175, 80);
+    padding: 13px 24px;
+    font-size: 15px;
+}
+
+#pay3 ul{
+    text-align: center;
+    border: 1px solid rgb(210, 210, 210);
+    list-style: none;
+}
+
+#pay2 ul{
+    text-align: center;
+    border: 1px solid rgb(210, 210, 210);
+    list-style: none;
+}
+
+#model1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(97, 97, 97);
+    padding: 35px;
+    font-size: 25px;
+}
+
+#pay1 ul:hover{
+    box-shadow: 0px 5px 13px gray;
+}
+#pay2 ul:hover{
+    box-shadow: 0px 5px 13px gray;
+}
+#pay3 ul:hover{
+    box-shadow: 0px 5px 13px gray;
+}
+
+.SingUp button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(204, 204, 204);
+    border: 1px solid rgba(204, 204, 204);
+}
+
+#title3{
+    text-align: center;
+    margin: 64px auto 64px auto;
+}
+
+#title3 span{
+    padding-bottom: 15px;
+    font-size: 24px;
+    border-bottom: 6px solid rgb(97, 97, 97);
+}
+
+#cards{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+}
+
+.image_card img{
+    width: 100%;
+}
+
+.card{
+    box-shadow: 0px 5px 13px gray;
+}
+
+.card>div{
+    padding: 10px 15px 15px 15px;
+}
+
+.card span{
+    font-size: 25px;
+}
+
+.card button{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(241, 241, 241);
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.card button:hover{
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.work p{
+    padding: 20px 0;
+    color: rgb(141, 141, 141);
+}
+
+.card>div p{
+    line-height: 25px;
+}
+
+#title4{
+    text-align: center;
+    margin: 64px auto 64px auto;
+}
+
+#title4 span{
+    padding-bottom: 15px;
+    font-size: 24px;
+    border-bottom: 6px solid rgb(97, 97, 97);
+}
+
+.labels{
+    display: block;
+    padding-top: 20px;
+}
+
+.inputs{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+#Send button{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    font-size: 15px;
+}
+
+#Send button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(204, 204, 204);
+}
+
+footer{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 50px;
+}
+
+footer h4{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+#link_footer a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 15px;
+}
+
+#link_footer i{
+    padding-right: 30px;
+}
+
+#link_footer a:hover{
+    background-color: rgba(204, 204, 204);
+    color: rgb(0, 0, 0);
+}
+
+#icon_footer{
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#w3_link a{
+    color: rgb(0, 0, 0);
+}
+
+#w3_link a:hover{
+    color: rgb(128, 188, 128);
+}
+
+@media(max-width:600px) {
+    main{
+        width: 100%;
+        padding: 0 20px;
+    }
+    article{
+        flex-direction: column;
+    }
+    #pay1{
+        margin-bottom: 20px;
+    }
+    #pay2{
+        margin-bottom: 20px;
+    }
+    #pay_cards{
+        flex-direction: column;
+    }
+    #cards{
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
